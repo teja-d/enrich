@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void) 
+void main() 
 {
     int a[10],n,b,i,j,temp=0;
     scanf("%d",&n);
@@ -28,6 +28,5 @@ int main(void)
         temp=temp*10+a[i];
     }
     printf("increasing order:%d",temp);
-	return 0;
 }
 
